@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.33919.361
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv_core", "lib\opencv480\modules\core\opencv_core.vcxproj", "{236D9F3A-4D25-3745-A439-0D17D29C4B19}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv_imgcodecs", "lib\opencv480\modules\imgcodecs\opencv_imgcodecs.vcxproj", "{0C89160B-F0FF-3B00-A234-9EC8877EDEFF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv_highgui", "lib\opencv480\modules\highgui\opencv_highgui.vcxproj", "{A232D01B-8121-365E-B21E-380119B4A2F8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libjpeg-turbo", "lib\opencv480\3rdparty\libjpeg-turbo\libjpeg-turbo.vcxproj", "{62B866CB-7714-3C1A-9252-BCA1F8C1DFBC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpng", "lib\opencv480\3rdparty\libpng\libpng.vcxproj", "{978D094A-68DD-3BB9-A26D-A1848DD8050A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "lib\opencv480\3rdparty\zlib\zlib.vcxproj", "{3A04D858-B82E-3A36-8AA0-1CA8EDAF9FE7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv_videoio", "lib\opencv480\modules\videoio\opencv_videoio.vcxproj", "{282F506C-806C-33EF-884D-3E3E9CA8EE5D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv_imgproc", "lib\opencv480\modules\imgproc\opencv_imgproc.vcxproj", "{AE105776-CAC0-304A-89A3-13174D730095}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FaceMeshCpp", "lib\MediapipeCpp\FaceMeshCpp\FaceMeshCpp_CV480.vcxproj", "{FD4B1BE3-3709-30A3-AC81-699964451874}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{236D9F3A-4D25-3745-A439-0D17D29C4B19}.Debug|x64.ActiveCfg = Debug|x64
+		{236D9F3A-4D25-3745-A439-0D17D29C4B19}.Debug|x64.Build.0 = Debug|x64
+		{236D9F3A-4D25-3745-A439-0D17D29C4B19}.Release|x64.ActiveCfg = Release|x64
+		{236D9F3A-4D25-3745-A439-0D17D29C4B19}.Release|x64.Build.0 = Release|x64
+		{0C89160B-F0FF-3B00-A234-9EC8877EDEFF}.Debug|x64.ActiveCfg = Debug|x64
+		{0C89160B-F0FF-3B00-A234-9EC8877EDEFF}.Debug|x64.Build.0 = Debug|x64
+		{0C89160B-F0FF-3B00-A234-9EC8877EDEFF}.Release|x64.ActiveCfg = Release|x64
+		{0C89160B-F0FF-3B00-A234-9EC8877EDEFF}.Release|x64.Build.0 = Release|x64
+		{A232D01B-8121-365E-B21E-380119B4A2F8}.Debug|x64.ActiveCfg = Debug|x64
+		{A232D01B-8121-365E-B21E-380119B4A2F8}.Debug|x64.Build.0 = Debug|x64
+		{A232D01B-8121-365E-B21E-380119B4A2F8}.Release|x64.ActiveCfg = Release|x64
+		{A232D01B-8121-365E-B21E-380119B4A2F8}.Release|x64.Build.0 = Release|x64
+		{62B866CB-7714-3C1A-9252-BCA1F8C1DFBC}.Debug|x64.ActiveCfg = Debug|x64
+		{62B866CB-7714-3C1A-9252-BCA1F8C1DFBC}.Debug|x64.Build.0 = Debug|x64
+		{62B866CB-7714-3C1A-9252-BCA1F8C1DFBC}.Release|x64.ActiveCfg = Release|x64
+		{62B866CB-7714-3C1A-9252-BCA1F8C1DFBC}.Release|x64.Build.0 = Release|x64
+		{978D094A-68DD-3BB9-A26D-A1848DD8050A}.Debug|x64.ActiveCfg = Debug|x64
+		{978D094A-68DD-3BB9-A26D-A1848DD8050A}.Debug|x64.Build.0 = Debug|x64
+		{978D094A-68DD-3BB9-A26D-A1848DD8050A}.Release|x64.ActiveCfg = Release|x64
+		{978D094A-68DD-3BB9-A26D-A1848DD8050A}.Release|x64.Build.0 = Release|x64
+		{3A04D858-B82E-3A36-8AA0-1CA8EDAF9FE7}.Debug|x64.ActiveCfg = Debug|x64
+		{3A04D858-B82E-3A36-8AA0-1CA8EDAF9FE7}.Debug|x64.Build.0 = Debug|x64
+		{3A04D858-B82E-3A36-8AA0-1CA8EDAF9FE7}.Release|x64.ActiveCfg = Release|x64
+		{3A04D858-B82E-3A36-8AA0-1CA8EDAF9FE7}.Release|x64.Build.0 = Release|x64
+		{282F506C-806C-33EF-884D-3E3E9CA8EE5D}.Debug|x64.ActiveCfg = Debug|x64
+		{282F506C-806C-33EF-884D-3E3E9CA8EE5D}.Debug|x64.Build.0 = Debug|x64
+		{282F506C-806C-33EF-884D-3E3E9CA8EE5D}.Release|x64.ActiveCfg = Release|x64
+		{282F506C-806C-33EF-884D-3E3E9CA8EE5D}.Release|x64.Build.0 = Release|x64
+		{AE105776-CAC0-304A-89A3-13174D730095}.Debug|x64.ActiveCfg = Debug|x64
+		{AE105776-CAC0-304A-89A3-13174D730095}.Debug|x64.Build.0 = Debug|x64
+		{AE105776-CAC0-304A-89A3-13174D730095}.Release|x64.ActiveCfg = Release|x64
+		{AE105776-CAC0-304A-89A3-13174D730095}.Release|x64.Build.0 = Release|x64
+		{FD4B1BE3-3709-30A3-AC81-699964451874}.Debug|x64.ActiveCfg = Debug|x64
+		{FD4B1BE3-3709-30A3-AC81-699964451874}.Debug|x64.Build.0 = Debug|x64
+		{FD4B1BE3-3709-30A3-AC81-699964451874}.Release|x64.ActiveCfg = Release|x64
+		{FD4B1BE3-3709-30A3-AC81-699964451874}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D64812B-C973-3205-8C5D-84B2005C888A}
+	EndGlobalSection
+EndGlobal
